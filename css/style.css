@@ -5,6 +5,7 @@
     font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
     line-height: 2.0;
+    overflow-y:visible
 }
 
 html, body{
