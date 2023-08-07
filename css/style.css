@@ -10,30 +10,34 @@ body{
 }
 
 menu{
-    background-color: #00bfff73;
+    background-color: #2926b8;
     position: relative;
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    border-radius: 20px;
 }
 
-ul {
-    display: flex;
-    justify-content: center;
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
 }
-  
-ul li {
-    margin: 30px;
+
+.list-menu {
+    display: flex;
 }
 
 .nav{
     text-decoration: none;
-    justify-content: center;
+    margin: 20px;
     font-size: 25px;
     color: white;
-    font-family: 'Edu SA Beginner', cursive;
-    font-family: 'Kanit', sans-serif;
-    letter-spacing: 2px;
 }
 
 .nav:hover{
@@ -42,14 +46,18 @@ ul li {
     transition: all 350ms ease-in-out;
 }
 
-
-/* Form */
-
-form{
-	border-radius: 15px;
-
+/* meio*/
+.middle{
+    color: rgb(0, 0, 0);
+    margin: 0px 50px 0px 20px;
 }
-button {
-   font-size: 16px;
-   color: black;
+
+.text-mid{
+    color: white;
+    font-size: 30px;
+}
+
+.service{
+    font-size: 20px;
+    text-decoration: none;
 }
