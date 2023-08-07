@@ -3,6 +3,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+    color: white;
 }
 
 html, body{
@@ -59,11 +60,21 @@ h1 {
 }
 
 .service{
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
     font-weight: bold;
+    background-color: #252323;
+    border-radius: 18px;
+    width: 45%;
+    margin: 1px;
 }
 
 .network{
     margin: 30px;
+}
+
+#img-tec {
+    box-shadow: 5px 5px 5px #ffffff83;
+    margin: 20px;
+    border-radius: 5px;
 }
