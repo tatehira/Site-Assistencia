@@ -98,7 +98,10 @@ h1 {
     font-size: 20px;
     margin: 30px;
     text-align: left;
+    position: relative;
+    border-radius: 20px;
 }
+
 
 h2{
     text-align: center;
