@@ -5,17 +5,17 @@
 	box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(54,58,61);
+html, body{
+    background-color: #181a1b;
 }
 
 menu{
-    background-color: #2926b8;
+    background-color: #000000;
     position: relative;
     display: flex;
     justify-content: space-between;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -42,7 +42,7 @@ h1 {
 }
 
 .nav:hover{
-    color: #000000;
+    color: #227059;
     font-size: 150%;
     transition: all 350ms ease-in-out;
 }
@@ -62,4 +62,8 @@ h1 {
     font-size: 18px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.network{
+    margin: 30px;
 }
