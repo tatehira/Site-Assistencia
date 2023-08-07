@@ -1,22 +1,32 @@
 
 * {
 	padding: 0;
-	margin: 0;
-    font-family: "CircularStd", Helvetica, Arial, sans-serif;
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     color: white;
+    line-height: 2.0;
 }
 
 html, body{
-    background-color: #222425;
+    background-color: #3d4045;
+}
+
+header{
+    display: flex;
+    justify-content: center;
 }
 
 menu{
-    background-color: #000000;
-    position: relative;
+    width: 1500px;
+    max-width: 1500px;
+    min-width: 500px;
+    background-color: #00000090;
     display: flex;
     justify-content: space-between;
-    margin: 10px;
-    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
 }
 
 h1 {
@@ -50,7 +60,7 @@ h1 {
 
 /* meio*/
 .middle{
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.492);
     margin: 0px 50px 0px 20px;
 }
 
@@ -63,15 +73,17 @@ h1 {
     font-size: 20px;
     text-decoration: none;
     font-weight: bold;
-    background-color: #000000;
-    border-radius: 18px;
-    width: 45%;
-    margin: 1px;
+    background-color: #1e2022;
+    border-radius: 15px;
+    width: 50%;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .network{
     margin: 30px;
 }
+
 
 #img-tec {
     box-shadow: 5px 5px 5px #ffffff83;
@@ -81,6 +93,8 @@ h1 {
 
 .img-mid{
     display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .img-mid.p{
@@ -89,9 +103,12 @@ h1 {
 }
 
 .img-info{
+    width: 100%;
     margin-top: 150px;
     padding: 100px;
     font-size: 25px;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .texto{
@@ -100,10 +117,20 @@ h1 {
     text-align: left;
     position: relative;
     border-radius: 20px;
+    background-color: #1e2022;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 
 h2{
     text-align: center;
     font-size: 40px;
+}
+
+.whatsapp{
+    position: fixed;
+    right: 50px;
+    bottom: 40px;
+    margin-right: 10px;
 }
